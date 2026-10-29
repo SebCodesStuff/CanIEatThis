@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Open camera</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Open camera</h1>
+      <p>Tap the button to open your phone camera.</p>
+      <button type="button" id="open-camera">Open camera</button>
+      <input id="camera-input" type="file" accept="image/*" capture="environment" class="visually-hidden" />
+      <img id="preview" alt="Captured photo" hidden />
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
